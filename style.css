@@ -303,17 +303,19 @@ nav img {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 2px solid green;
+    border: 3px solid rgb(255, 255, 255);
+    background:  #026a21;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
+    /* background: transparent; */
     position: relative;
     cursor: pointer;
 }
 
 #page1 a:hover {
-    border: 1px solid white;
-    background: #026a21;
+    color: #ffffff;
+    border: 3px solid #026a21;
+    background: transparent;
 }
 
 .courses {
@@ -326,6 +328,7 @@ nav img {
 .courses h1 {
     font-size: 36px;
     font-weight: 600;
+    color: lab(36.16% -28.98 22.09);
 }
 
 .courses p {
@@ -367,6 +370,7 @@ nav img {
     text-align: center;
     font-weight: 600px;
     margin: 10px 0px;
+    color: rgb(7, 34, 2);
 }
 
 .course-col:hover {
@@ -379,14 +383,16 @@ nav img {
     }
 }
 
-/* ----------------------------campus------------? */
+/* ----------------------------campus-----------------------------------------------------------------------? */
 .campus {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-
+.campus h1{
+  color: #026a21;
+}
 /*
 .campus-col{
     flex-basis: 32%;
@@ -451,6 +457,9 @@ nav img {
     text-align: center;
     padding-top: 100px;
 }
+.faculty h1{
+  color: #026a21;
+}
 .Facilities-col{
     flex-basis: 31%;
     border-radius: 10px;
@@ -475,6 +484,9 @@ nav img {
     padding-top: 100px;
     text-align: center;
     }
+  .testimonial h1{
+    color: #026a21;
+  }
 .testimonial-col{
     flex-basis: 44%;
     border-radius: 10px;

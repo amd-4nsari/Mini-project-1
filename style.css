@@ -477,6 +477,11 @@ nav img {
     margin-bottom: 15px;
     text-align: left;
 }
+.Facilities-col li{
+  margin-top: 0.5em;
+  text-align: left;
+
+}
 /* ===========================================testimonials=============================== */
 .testimonial{
     width: 80%;

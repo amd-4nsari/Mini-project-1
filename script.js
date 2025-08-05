@@ -24,3 +24,24 @@ gsap.to("#main",{
         scrub:2,
     }
 })
+gsap.from(".nav-left",{
+    x:-1000,
+    duration:2,
+    delay:0,
+})
+gsap.from("#nav-links",{
+    x:1000,
+    duration:2,
+    delay:1,
+})
+
+gsap.from("#page1 h1",{
+    x:-1500,
+    duration:2,
+    delay:2,
+})
+gsap.from("#page1 a",{
+    y:1000,
+    duration:2,
+    delay:2,
+})
